@@ -1,12 +1,11 @@
 library(sf)
-library(rgeos)
 library(dplyr)
 library(ggplot2)
 library(stringr)
 library(viridis)
 library(hrbrthemes)
 library(extrafont)
-library(openxlsx)
+
 
 
 #read shapefile
