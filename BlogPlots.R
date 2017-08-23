@@ -12,8 +12,6 @@ library(openxlsx)
 #read shapefile
 scot <- st_read("SG_SIMD_2016.shp")
 colnames(scot) <- colnames(scot) %>% str_to_lower()
-postcodes <- inner_join(postcode,postcodexl, by = "postcode")
-postcodes <- postcodes %>% rename(datazone = DZ)
 
 
  # filter out smaller dataframe for parochial purposes
